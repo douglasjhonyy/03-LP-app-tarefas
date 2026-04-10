@@ -1,0 +1,26 @@
+:root {
+    --verde: #44e9b2;
+    --azul: #4591e9;
+    --roxo: #9575f7;
+    --laranja: #e99b49;
+    --rosa: #f788c5;
+    --bg: #F5F9FF;
+    --card: #FFFFFF;
+    --texto: #1E2A3A;
+    --muted: #58687e;
+    --radius: 18px;
+}
+
+/* Reset básico — remove margens padrão do navegador */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--texto);
+    overflow-x: hidden;
+}
