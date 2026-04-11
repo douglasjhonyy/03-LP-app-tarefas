@@ -1,0 +1,92 @@
+/* =============================================
+     PASSO 4: HERO — seção principal
+     display: flex coloca texto e mockup lado a lado
+     clamp() ajusta o tamanho da fonte dinamicamente
+  ============================================= */
+
+  .hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 5% 4rem;
+    gap: 3rem;
+    animation: fadeUp 0.8s ease both;
+  }
+
+  .hero-text{
+    max-width: 520px;
+  }
+
+  .badge{
+    display: inline-block;
+    background: rgba(61,214,163,.15);
+    color: #0D9063;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.35rem 0.9rem;
+    border-radius: 50px;
+    margin-bottom: 1.2rem;
+    border: 1px solid rgba(26, 87, 67, 0.3);
+  }
+
+  h1{
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(2.2rem, 5vw, 3.2rem);
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 1rem;
+    color: var(--texto);
+  }
+
+  /* Gradiente aplicado só no texto com clip */
+  h1 .highlight {
+    background: linear-gradient(135deg, var(--azul), var(--roxo));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .hero p{
+    font-size: 1.05rem;
+    color: var(--muted);
+    line-height: 1.7;
+    margin-bottom: 2rem;
+  }
+
+  .btn-group{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary{
+    background: linear-gradient(135deg, var(--azul), var(--roxo));
+    color: #fff;
+    border: none;
+    padding: .85rem 2rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    transition: transform .2s, box-shadow .2s;
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(68, 135, 211, 0.5);
+  }
+
+  .btn-ghost{
+    background: transparent;
+    color: var(--azul);
+    border: 2px solid var(--azul);
+    padding: 0.8rem 1.8rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    transition: all .2s;
+  }
+
+  .btn-ghost:hover { background: var(--azul); color: #fff; }
