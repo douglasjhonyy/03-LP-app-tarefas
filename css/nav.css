@@ -21,6 +21,17 @@ nav{
 }
 .logo span { color: var(--verde); }
 
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+nav a{
+    color: var(--muted);
+    font-size: 0.95rem;
+    transition: color 0.2s;
+}
+
 nav ul a:hover {color: var(--azul);
 
 }
