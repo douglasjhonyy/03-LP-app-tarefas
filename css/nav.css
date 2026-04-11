@@ -1,4 +1,4 @@
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,35 +8,39 @@ nav{
     position: sticky;
     top: 0;
     z-index: 100;
-    border-bottom: 1px solid rgba(91,164,245,0.12);
-    
+    border-bottom: 1px solid rgba(91, 164, 245, 0.12);
+
 }
 
-.logo{
+.logo {
     font-family: 'syne', sans-serif;
     font-weight: 800;
     font-size: 1.4rem;
     color: var(--azul);
     letter-spacing: -0.5px;
 }
-.logo span { color: var(--verde); }
+
+.logo span {
+    color: var(--verde);
+}
 
 nav ul {
     display: flex;
     gap: 2rem;
 }
 
-nav a{
+nav a {
     color: var(--muted);
     font-size: 0.95rem;
     transition: color 0.2s;
 }
 
-nav ul a:hover {color: var(--azul);
+nav ul a:hover {
+    color: var(--azul);
 
 }
 
-.btn-nav{
+.btn-nav {
     background: var(--azul);
     color: #fff;
     border: none;
@@ -49,6 +53,6 @@ nav ul a:hover {color: var(--azul);
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.btn-nav:hover{
+.btn-nav:hover {
     transform: translateY(-2px);
 }
