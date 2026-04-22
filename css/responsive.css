@@ -1,0 +1,28 @@
+/* Se a tela for menor que 768px (celular):
+     - hero vira coluna única
+     - menu some
+     - mockup aparece em cima do texto */
+
+     @media (max-width: 768px){
+        .hero{
+            flex-direction: column;
+            padding: 3rem 5%;
+            text-align: center;
+        }
+
+        .btn-group{
+            justify-content: center;
+        }
+
+        nav ul{
+            display: none;
+        }
+
+        .mockup-wrap{
+            order: -1; /* mockup aparece antes do texto */
+        }
+
+        .phone{
+            width: 220px;
+        }
+     }
