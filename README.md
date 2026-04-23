@@ -9,7 +9,7 @@ Seção CTA com botões de download
 Animações CSS suaves (fade-up e float)
 Design 100% responsivo para mobile e desktop
 
-Conceitos Praticados
+<h1>Conceitos Praticados</h1>
 Este projeto foi desenvolvido com foco educacional, cobrindo os seguintes conceitos:
 
 Variáveis CSS com :root para gerenciar cores globalmente
