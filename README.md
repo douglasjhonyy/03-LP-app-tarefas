@@ -12,15 +12,15 @@ https://douglasjhonyy.github.io/03-LP-app-tarefas/
 <h1>Conceitos Praticados</h1>
 Este projeto foi desenvolvido com foco educacional, cobrindo os seguintes conceitos:
 
-Variáveis CSS com :root para gerenciar cores globalmente <br>
-Flexbox para alinhar elementos lado a lado <br>
-CSS Grid com auto-fit e minmax() para layout responsivo automático <br>
-Animações com @keyframes, animation-delay e transition <br>
-Pseudo-elementos e efeitos de hover <br>
-Gradientes em texto com -webkit-background-clip <br>
-Box-shadow em múltiplas camadas para profundidade <br>
-Media queries para adaptação em dispositivos móveis <br>
-Semântica HTML5 com <nav>, <section>, <footer> <br>
+- Variáveis CSS com :root para gerenciar cores globalmente <br>
+- Flexbox para alinhar elementos lado a lado <br>
+- CSS Grid com auto-fit e minmax() para layout responsivo automático <br>
+- Animações com @keyframes, animation-delay e transition <br>
+- Pseudo-elementos e efeitos de hover <br>
+- Gradientes em texto com -webkit-background-clip <br>
+- Box-shadow em múltiplas camadas para profundidade <br>
+- Media queries para adaptação em dispositivos móveis <br>
+- Semântica HTML5 com <nav>, <section>, <footer> <br>
 
 
 <h1>📱 Responsividade </h1>
